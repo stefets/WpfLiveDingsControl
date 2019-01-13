@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{14BC0152-7141-46DF-B553-75C61C8DE0F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WpfLiveDings", "WpfLiveDings", "{D3CD4D80-E450-49E3-85DB-B62DF78AC49E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfLiveDings", "WpfLiveDings\WpfLiveDings.csproj", "{A2C5FA79-BFCE-421E-93A4-3F9AF08C1E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfLiveDings.Tests", "WpfLiveDings.Tests\WpfLiveDings.Tests.csproj", "{1BA0D8B5-A7E8-411D-A833-803438276D45}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WpfLiveDings.Shared", "WpfLiveDings.Shared\WpfLiveDings.Shared.shproj", "{8AB3423D-7F64-412A-B46A-D08D9800ACA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{2DF8EAA6-705C-4FCC-B7F5-8EBCFDF1B49C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveDingsUI", "LiveDingsUI\LiveDingsUI.csproj", "{9832881E-E4CC-4201-B626-7DA91463651B}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		WpfLiveDings.Shared\WpfLiveDings.Shared.projitems*{8ab3423d-7f64-412a-b46a-d08d9800aca4}*SharedItemsImports = 13
+		WpfLiveDings.Shared\WpfLiveDings.Shared.projitems*{a2c5fa79-bfce-421e-93a4-3f9af08c1e6f}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2C5FA79-BFCE-421E-93A4-3F9AF08C1E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C5FA79-BFCE-421E-93A4-3F9AF08C1E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C5FA79-BFCE-421E-93A4-3F9AF08C1E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C5FA79-BFCE-421E-93A4-3F9AF08C1E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA0D8B5-A7E8-411D-A833-803438276D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA0D8B5-A7E8-411D-A833-803438276D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA0D8B5-A7E8-411D-A833-803438276D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA0D8B5-A7E8-411D-A833-803438276D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9832881E-E4CC-4201-B626-7DA91463651B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9832881E-E4CC-4201-B626-7DA91463651B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9832881E-E4CC-4201-B626-7DA91463651B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9832881E-E4CC-4201-B626-7DA91463651B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2C5FA79-BFCE-421E-93A4-3F9AF08C1E6F} = {D3CD4D80-E450-49E3-85DB-B62DF78AC49E}
+		{1BA0D8B5-A7E8-411D-A833-803438276D45} = {14BC0152-7141-46DF-B553-75C61C8DE0F6}
+		{8AB3423D-7F64-412A-B46A-D08D9800ACA4} = {D3CD4D80-E450-49E3-85DB-B62DF78AC49E}
+		{9832881E-E4CC-4201-B626-7DA91463651B} = {2DF8EAA6-705C-4FCC-B7F5-8EBCFDF1B49C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9399BB05-C186-47A8-A2A7-37C46B0CA400}
+	EndGlobalSection
+EndGlobal
